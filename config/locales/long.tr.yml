@@ -1,0 +1,81 @@
+tr:
+  errors:
+    not_found: |
+      ### Hop!
+      Aradığınız sayfa yok (artık?).
+
+      Sorun değil, nefes al ve şunlara bak: [forums](%{root})!
+
+    server_error: |
+      ### Hop!
+      RubyBB hata vermiş gibi görünüyor :(
+
+      Sorun değil, nefes al ve şunlara bak: [forums](%{root})!
+
+  help:
+    sign_up: |
+      ### İlk adım: kayıt
+      Bu yeni forumun ilk kayıtlı kullanıcısı olarak, onun yöneticisi olursunuz.
+      Ayarlarla oynamanız ve her şeyi yönetmeniz mümkün olacak. 
+
+    first_steps: |
+      ### İyi iş!
+      Artık forum başlığınızı ve maddelerinizi belirlemek için [settings](%{settings}) ile oynayabilirsiniz!
+
+      Yarattığımız ilk kategoriye göz atmaktan, düzenlemekten veya silmekten çekinmeyin.
+
+    groups: |
+      ### Gruplar nelerdir?
+      Kategorilerin, konuların ve mesajların erişim denetimini yönetmenize izin verirler.
+
+      Oluşturup kullanabileceğiniz iki tür grup vardır:
+
+      * Herkese açık, herkese görünür. Örnekler: « Moderators », « Philatelists »;
+      * özel, kullanıcıları sıralamak için. Örnekler: « Friends », « Acquaintances ».
+
+      Her iki durumda da, gruplarınızın üyelerini yönetiyorsunuz.
+
+  home: |
+    ### Hey!
+    Bu forum boş. [%{host} yönetici ol](%{setup})!
+
+  about: |
+    ### Hakkında
+    RubyBB ücretsiz bir ilan panosu sistemidir.
+    Şunun altındadır [BSD-2-clause license](https://github.com/RubyBB/RubyBB#bsd-2-clause-license).
+    Ya özgürce kendiniz kurabilir ya da RubyBB'nizi RubyBB.com aracılığıyla oluşturabilirsiniz.
+
+    ### Nasıl çalışır?
+    Anything.rubybb.com'a gidin: yeni bir boş forum yaratacaktır!
+    İlk kayıtlı kullanıcı yöneticisi olacaktır.
+    Bu yeni forumun kendi teması, kullanıcı grubları, kategorileri, konuları ve mesajları olacaktır.
+    Bir alan adınız mı var? Ornek.alanadiniz.com'u [www.rubybb.com](http://www.rubybb.com/)'a bağlayın. İşe yarayacaktır.
+
+    ### Gizlilik
+    RubyBB ile yarattığınız her şeyi silebilizsiniz:
+
+    * bir kullanıcı olarak mesajlarınızı, yorumlarınızı, açtığınız konuları ve hesabınızı silebilirsiniz.
+    * bir yönetici olarak, herhangi bir şeyi silebilirsiniz ve
+      silinmedikleri sürece mesaj geçmişi düzenlemelerine erişebilirsiniz.
+
+    ### Spam denetimi
+    Bir kullanıcı, hesabını yönetici tarafından manuel olarak onaylamadığı sürece birden fazla ileti yayınlayamaz.
+    Kimse on saniyede bir birden fazla mesaj veya yorum yayınlayamaz.
+
+    ### Özellikler
+    * küçük konuşmalar için her bir mesajın altında yorum mesajları.
+    * beklediğiniz haberler için gerçek zamanlı olarak haberdar edilmek için mesajı/konuyu/forumu/kullanıcıyı takip edin.
+    * gerçek zamanlı olarak ne yazdığınızı önizleyin: gördüğünüz yazı gönderdiğiniz şeydir.
+    * tarayıcı çökmesi? siz yazarken mesajınız otomatik olarak kaydedilir.
+    * harika arama motoru: joker karakter, istisnalar, cümleler, meta...
+    * Facebook veya Google ile giriş yapın.
+    * mesajlarınızda #hashtag ve @username bulunan şeyleri otomatik olarak ilişkilendirin.
+    * kategori ve konuları yeniden adlandırmak hiçbir şeyi bozmaz: eski bağlantılar yeni olanlara yönlendirecektir.
+    * Her kategoride ve her konuda RSS.
+    * mesajlarınıza ek dosyalar ekleyin.
+    * açık gruplar ve erişim kontrolü yönetimi.
+    * ve özel CSS!
+
+    ### İletişim
+    Hata raporu, özellik talebi, yardım, soru, çeviri, teşvik ...
+    Birincil [www.rubybb.com] (http://www.rubybb.com/) bülten panosuna gidin, kaydolun ve yayınlayın: iletişimden hoşlanıyoruz!
