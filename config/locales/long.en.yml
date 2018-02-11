@@ -1,81 +1,81 @@
 en:
   errors:
     not_found: |
-      ### Whoops!
-      The page you are looking for does not exist (anymore?).
+      ### Uppps!
+      La página que estas buscando no existe (ya?).
 
-      That's okay, take a breath and look at our [forums](%{root})!
+      Está bien, tomate un respiro y mira nuestro [forums](%{root})!
 
     server_error: |
-      ### Whoops!
-      RubyBB seems to bug :(
+      ### Uppps!
+     Parece que RubyBB tiene errores :(
 
-      That's okay, take a breath and be helped on our [forums](%{root})!
+      Está bien, tomate un respiro y busca ayuda en nuestro [forums](%{root})!
 
   help:
     sign_up: |
-      ### First step: registration
-      As first registered user on this new forum, you will be its administrator.
-      You will be able to play with settings and manage everything.
+      ### Primer paso: registro
+      Al ser el primer usuario registrado en este nuevo foro, serás su administrador.
+      Estarás autorizado para jugar con la configuración y administrar todo.
 
     first_steps: |
-      ### Good job!
-      You can now play with [settings](%{settings}) to set your forum title and stuff!
+      ### Buen trabajo!
+      Ahora puedes jugar con [settings](%{settings}) para configurar el título del foro y demás!
 
-      Feel free to browse, edit or delete the first category we created.
+      Siéntase libre de navegar, editar o eliminar la primera categoría que creamos.
 
     groups: |
-      ### What are groups?
-      They allow you to manage categories, topics and messages access control.
+      ### Qué son los grupos?
+      Ellos le permiten administrar categorías, temas y control de acceso a mensajes.
 
-      There are two kinds of groups you can create and use:
+      Hay dos tipos de grupos que puedes crear y usar:
 
-      * public, visible by everybody. Examples: « Moderators », « Philatelists »;
-      * private, for users sorting. Examples: « Friends », « Acquaintances ».
+      * público, visible por todos. Ejemplos: « Moderadores », « Filateistas »;
+      * privado, para usuarios clasificados. Ejemplos: « Amigos », « Conocidos ».
 
-      In both cases, you manage members of your groups.
+      En ambos casos, tu administras los miembros de tus grupos.
 
   home: |
     ### Hey!
-    This forum is empty. [Become %{host} administrator](%{setup})!
+    Este foro está vacío. [Convertirse en %{host} administrador](%{setup})!
 
   about: |
-    ### About
-    RubyBB is a free bulletin board system.
-    It is released under the [BSD-2-clause license](https://github.com/RubyBB/RubyBB#bsd-2-clause-license).
-    You can either install it by yourself or fire freely your RubyBB through RubyBB.com.
+    ### Acerca de 
+    RubyBB es un sistema gratuito de boletín de anuncios.
+    Es lanzado bajo la [licencia de clausula BSD-2-](https://github.com/RubyBB/RubyBB#bsd-2-clause-license).
+    Puede instalarlo usted mismo o conseguir libremente su RubyBB a través de RubyBB.com
 
-    ### How does it works
-    Go to to anything.rubybb.com: it will magically create a new empty forum!
-    The first registered user will be its administrator.
-    This new forum will have its own theme and its own set of users, categories, topics and messages.
-    You own a domain name? Bind whatever.yourdomain.com to [www.rubybb.com](http://www.rubybb.com/), it will just work.
+    ### Cómo funciona
+    Ir a anything.rubybb.com: eso creará magicamente un nuevo foro vacío!
+    El primer usuario registrado será su administrador.    
+    Este nuevo foro tendrá su propio tema y su propio grupo de usuarios, categorías, asuntos y mensajes.
+    Usted tiene un nombre de dominio? Enlace whatever.yourdomain.com a [www.rubybb.com](http://www.rubybb.com/), eso funcionará.
 
-    ### Privacy
-    You can delete all things you created with RubyBB:
+    ### Privacidad
+    Puedes eliminar todas las cosas que hayas creado con RubyBB:
 
-    * as a user, you can delete your messages, comments, topics and account.
-    * as an administrator, you can delete anything and
-      access to the history of messages' edits as long as they are not deleted.
+    * como usuario, puedes eliminar tus mensajes, comentarios, temas y también la cuenta.
+    * como administrador, puedes eliminar todo y
+      acceder al historial de ediciones de mensaje siempre y cuando no hayan sido eliminados.
 
-    ### Spam control
-    A user can't post more than one message before the administrator's manual confirmation of its account.
-    Nobody will be able to post more than one message or comment every ten seconds.
+    ### Control de spam
+    Un usuario no puede publicar más de un mensaje antes de la confirmación manual del administrador de su cuenta.
+    Nadie podrá publicar más un mensaje o comentario cada diez segundos.
 
-    ### Features
-    * comment messages for small talks under each message.
-    * follow message/topic/forum/user to be notified in real-time for news your are waiting for.
-    * preview what your are writing in real-time: what you see is what you post.
-    * browser crash? your message is autosaved while your are tiping.
-    * awesome search engine: wildcard, exclusion, sentences, meta...
-    * log in with Facebook or Google.
-    * autolink things with #hashtag and @username in your messages.
-    * renaming category and topics won't break anything: old links will redirect to the new ones.
-    * RSS in each category and each topic.
-    * add attachments to your messages.
-    * precise groups and access controls management.
-    * and custom your CSS!
+    ### Características
+    * comentar mensajes para charlas pequeñas debajo de cada mensaje.
+    * siga el mensaje/tema/foro/usuario para estar notificado en tiempo real de las noticias que estas esperando.
+    * previsualizar lo que estas escribiendo en tiempo real: lo que ves es lo que se publica.
+    * error del navegador? su mensaje es autoguardado mientras estas escribiendo.
+    * motor de búsqueda increíble: wildcard, exclusión, oraciones, meta...
+    * iniciar sesión con Facebook o Google.
+    * autolink cosas con #etiqueta y @nombredeusuario en tus mensajes.
+    * renombrar las categorías y temas no romperá nada: los viejos enlaces se redireccionarán a los nuevos.
+    * RSS en cada categoría y cada tema.
+    * agrega archivos adjuntos a tus mensajes.
+    * grupos precisos y gestión de controles de accesos.
+    * y personaliza tu CSS!
 
-    ### Contact
-    Bug report, feature request, help, question, translation, encouragement...
-    Go to the primary [www.rubybb.com](http://www.rubybb.com/) bulletin board, register and post: we enjoy communication!
+    ### Contacto
+    Informe de error, solicitud de función, ayuda, preguntas, traducciones, ánimo...
+    Vaya al tablero de boletín principal [www.rubybb.com](http://www.rubybb.com/) regisrese y publique: disfrutamos la comunicación!
