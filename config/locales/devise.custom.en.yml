@@ -4,10 +4,10 @@ en:
   devise:
     sessions:
       new:
-        email_or_name: Email or name
+        email_or_name: Correo electrónico o nombre
     registrations:
       edit:
-        my_profile: My profile
-        more: 'edit my name, email or password...'
-        update: Update
-        new_password: New password
+        my_profile: Mi perfil
+        more: 'editar mi nombre, correo electrónico o contraseña...'
+        update: Actualizar
+        new_password: Nueva contraseña
