@@ -4,11 +4,11 @@ en:
     # These are the translations for the different titles.
     #
     titles:
-      notice: "Notice"
-      success: "Success"
-      warning: "Warning"
+      notice: "Aviso"
+      success: "Éxito"
+      warning: "Advertencia"
       error: "Error"
-      progress: "Progress"
+      progress: "Progreso"
     #
     # Add gflash messages for controller actions:
     # products:
