@@ -3,85 +3,85 @@
 
 en:
   search:
-    title: Search
-    find: Find
-    no_results: 'No results have been found.'
-    error: 'Sorry, your query is invalid.'
+    title: Buscar
+    find: Encontrar
+    no_results: 'No se han encontrado resultados.'
+    error: 'Disculpa, su consulta no es válida.'
 
   date:
     formats:
-      default: "%Y-%m-%d"
+      default: "%a-%m-%d"
   time:
     formats:
-      default: "%Y-%m-%d, %I:%M %p"
+      default: "%A-%m-%d, %I:%M %p"
 
   acl:
-    all: All
-    humans: Humans
-    title: 'Access control'
-    hint: 'Keywords: "All", "Humans", user name, group name.'
+    all: Todo
+    humans: Humanos
+    title: 'Control de acceso'
+    hint: 'Palabras clave: "Todos", "Humanos", nombre de usuario, nombre de grupo.'
 
   common:
-    create: Publish
-    update: Update
-    read: 'read'
-    back: back
-    by: by
-    in: in
-    stats: Stats
-    staff: Staff
+    create: Publicar
+    update: Actualizar
+    read: 'leer'
+    back: atrás
+    by: por
+    in: en
+    stats: Estadísticas
+    staff: Personal
     sysadmin: Sysadmin
-    banned: Banned
-    user: User
-    moderator: Moderator
-    admin: Admin
-    forum: Forum
-    forums: Forums
-    new: New
-    edit: Edit
-    destroy: Destroy
-    pin_on: Pin on
-    pinned: Pinned
-    unpin: Unpin
-    are_you_sure: "Are you sure?"
-    follow: follow
+    banned: Baneado
+    user: Usuario
+    moderator: Moderador
+    admin: Administrador
+    forum: Foro
+    forums: Foros
+    new: Nuevo
+    edit: Editar
+    destroy: Destruir
+    pin_on: Prender
+    pinned: Prendido 
+    unpin: Desprender
+    are_you_sure: "Estás seguro?"
+    follow: seguir
     remove: "×"
-    unfollow: unfollow
-    na: "not available"
+    unfollow: dejar de seguir
+    na: "no disponible"
     topics_count:
-      zero: "%{count} topic"
-      one: "%{count} topic"
-      other: "%{count} topics"
+      zero: "%{count} tema"
+      one: "%{count} tema"
+      other: "%{count} temas"
     messages_count:
-      zero: "%{count} message"
-      one: "%{count} message"
-      other: "%{count} messages"
+      zero: "%{count} mensaje"
+      one: "%{count} mensaje"
+      other: "%{count} mensajes"
 
   layouts:
     application:
-      powered_by: Powered by
-      about: About
+      powered_by: Impulsado por
+      about: Acerca de
     navigation:
-      settings: Settings
-      groups: Groups
-      forums: Forums
-      users: Users
-      user: Profile
-      edit: Edit
-      follows: Follows
-      notifications: Notifications
-      favorites: Favorites
-      bookmarks: Bookmarks
-      logout: Logout
-      login: Login
-      sign_up: Register
+      settings: Configuraciones
+      groups: Grupos
+      forums: Foros
+      users: Usuarios
+      user: Perfil
+      edit: Editar
+      follows: Seguidos
+      notifications: Notificaciones
+      favorites: Favoritos
+      bookmarks: Marcadores
+      logout: Cerrar sesión
+      login: Iniciar sesión
+      sign_up: Registro
     search:
-      title: "Examples"
-      content: "topic:\"%{topic}\"<br>user:%{user} %{word1}<br>forum:%{forum} -%{word2}<br>%{word3}*"
+      title: "Ejemplos"
+      content: "tema:\"%{topic}\"<br>usuario:%{user} %{word1}<br>foro:%{forum} -%{word2}<br>%{word3}*"
 
   pages:
     about:
-      title: À propos
+      title: A propósito
 
   views:
     pagination:
@@ -92,201 +92,200 @@ en:
       truncate: "..."
 
   mailer:
-    title: "New message in \"%{topic}\""
-    new_message: "A new message has been posted in \"%{topic}\" by %{user}:"
-    context: "See this message with its context: %{url}"
-    change: "Change notifications settings: %{url}"
+    title: "Nuevo mensaje en \"%{topic}\""
+    new_message: "Un nuevo mensaje ha sido publicado en \"%{topic}\" por %{user}:"
+    context: "Ver este mensaje con su contexto: %{url}"
+    change: "Cambiar la configuración de notificaciones: %{url}"
 
   groups:
     created:
-      public: Public group was successfully created.
-      private: Private group was successfully created.
-    updated: Group was successfully updated.
+      public: Grupo público creado exitosamente.
+      private: Grupo privado creado exitosamente.
+    updated: Grupo actualizado exitosamente.
     status:
-      private: private
-      public: public
-    role: Role
-    member: member
-    owner: owner
+      private: privado
+      public: público
+    role: Rol
+    member: miembro
+    owner: dueño
     index:
-      title: Groups
-      edit: manage
-      no_results: 'No groups have been created yet.'
+      title: Grupos
+      edit: administrar
+      no_results: 'No se han creado grupos aún.'
     new:
-      title: New group
+      title: Nuevo grupo
     edit:
-      title: Edit group
+      title: Editar grupo
 
   domains:
-    updated: Settings were successfully updated.
+    updated: La configuración se actualizó correctamente.
     show:
-      title: Settings
-      update: Update
-      more: advanced options...
+      title: Configuración
+      update: Actualizar
+      more: opciones avanzadas...
     new:
-      welcome: Welcome to the RubyBB forums
-      create: Create
-      about: "Create your own bulletin board by replacing \"www\" by anything you want:"
-      more: It's free and ad-free!
-      available: available !
-      taken: already taken :(
-      format: bad format!
+      welcome: Bienvenido a los foros de RubyBB
+      create: Crear
+      about: "Crea tu propio tablero de anuncios reemplazando \"www\" por lo que quieras:"
+      more: Es gratis y libre de anuncios!
+      available: disponible !
+      taken: ya tomadas :(
+      format: mal formato!
 
   notifications:
     index:
-      title: Notifications
-      clear: Clear
-      mark_all_as_read: Mark all as read
+      title: Notificaciones
+      clear: Despejado
+      mark_all_as_read: Marcar todo como leído
 
   follows:
     index:
-      title: Follows
-      no_user: You don't follow any user yet.
-      no_topic: You don't follow any topic yet.
+      title: Seguidos
+      no_user: No sigues a ningun usuario todavía.
+      no_topic: No sigues ningún tema todavía.
 
   users:
     gender:
-      male: male
-      female: female
-      other: other
+      male: masculino
+      female: femenino
+      other: otro
     index:
-      title: Users
-      age: Age
+      title: Usuarios
+      age: Edad
     show:
-      stats: Stats
-      graph: Graph
-      admin: Admin
-      more: "(%{a_day} a day, %{total} %)"
-      see_messages: See messages
-      edit: edit
+      stats: Estadísticas
+      graph: Gráfico
+      admin: Administrador
+      more: "(%{a_day} un día, %{total} %)"
+      see_messages: Ver mensajes
+      edit: editar
 
   bookmarks:
     index:
-      title: Bookmarks
-      clear: Reinit tracking
-
+      title: Marcadores
+      clear: Reiniciar seguimiento
   forums:
-    example: Demo forum
-    content_example: 'You can edit this description by clicking "Demo forum" and then "Edit".'
-    created: Forum was successfully created.
-    updated: Forum was successfully updated.
+    example: Foro de demostración
+    content_example: 'Puedes editar esta descripción haciendo clic en "Foro de demostración" y luego "Editar".'
+    created: Foro creado exitosamente.
+    updated: Foro actualizado exitosamente.
     index:
-      see_also: 'See also:'
-      title: "Forums"
+      see_also: 'Ver también:'
+      title: "Foros"
       users:
-        zero: "%{count} user, "
-        one: "%{count} user, "
-        other: "%{count} users, "
+        zero: "%{count} usuarios, "
+        one: "%{count} usuarios, "
+        other: "%{count} usuarios, "
       online:
-        zero: "%{count} online."
-        one: "%{count} is online:"
-        other: "%{count} are online:"
-      counters: "%{messages} messages in %{topics} topics."
+        zero: "%{count} en línea."
+        one: "%{count} está en línea:"
+        other: "%{count} están en línea:"
+      counters: "%{messages} mensajes en %{topics} temas."
     show:
       title: "%{name}"
     breadcrumb:
-      new_topic: New topic
+      new_topic: Nuevo tema
     new:
-      title: New forum
+      title: Nuevo foro
     edit:
-      title: Editing forum
+      title: Editando foro
   topics:
-    example: "Demo topic"
-    created: Topic was successfully created.
-    updated: Topic was successfully updated.
+    example: "Tema de demostración"
+    created: Tema creado exitosamente.
+    updated: Tema actualizado exitosamente.
     show:
       title: "%{name}"
     list:
-     new_messages: 'New messages!'
-     topics: Topics
-     messages: Msg
-     follows: Stars
-     views: Views
-     activity: Activity
-     last_page: last page
+     new_messages: 'Nuevos mensajes!'
+     topics: Temas
+     messages: Mensajes
+     follows: Estrellas
+     views: Vistas
+     activity: Actividad
+     last_page: última página
     breadcrumb:
-      new_message: Reply
+      new_message: Respuesta
     new:
-      title: New topic
+      title: Nuevo tema
     edit:
-      title: Editing topic
+      title: Editando tema
     form:
-      more: access control...
+      more: control de acceso...
   small_messages:
-    example: 'Hi! Delete this small message by clicking the cross :)'
+    example: 'Hola! Elimina este pequeño mensaje haciendo clic en la cruz :)'
   messages:
-    example: 'Demo message. Click "Edit" on the top to edit topic title, or click "Edit" on the left to edit this content.'
-    created: Message was successfully posted.
-    updated: Message was successfully updated.
+    example: 'Mensaje de demostración. Haz clic en "Editar" en la parte superior para editar el título del tema, o haga clic en "Editar" en la izquierda para editar este contenido.'
+    created: Mensaje publicado exitosamente.
+    updated: Mensaje actualizado exitosamente.
     index:
-      title: Search results
+      title: Resultados de búsqueda
     show:
-      quote: quote
-      download: "Download attached file: %{name}"
-      use: use this
-      updated_by: "Updated by %{name} at %{date}"
-      bot: "%{name} is a bot"
-      human: "%{name} is a human"
-      i_am_a_bot: "You cannot post anymore: you have to wait someone confirms your account."
-      it_is_a_bot: "%{name} cannot posts anymore: he or she has to wait account confirmation."
+      quote: citar
+      download: "Descargar archivo adjunto: %{name}"
+      use: usar esta
+      updated_by: "Actualizado por %{name} a las %{date}"
+      bot: "%{name} es un bot"
+      human: "%{name} es un humano"
+      i_am_a_bot: "No puedes publicar más: tienes que esperar que alguien confirme tu cuenta."
+      it_is_a_bot: "%{name} no puede publicar mensajes: él o ella tiene que esperar la confirmación de la cuenta."
     new:
-      title: New message
+      title: Nuevo mensaje
     edit:
-      title: Editing message
+      title: Editando mensaje
     form:
-      more: options...
+      more: opciones...
 
   activerecord:
     models:
-      user: User
-      forum: Forum
-      topic: Topic
-      message: Message
-      group: Group
+      user: Usuario
+      forum: Foro
+      topic: Tema
+      message: Mensaje
+      group: Grupo
     attributes:
       domain:
-        title: Title
-        description: Description
-        keywords: Keywords
+        title: Título
+        description: Descripción
+        keywords: Palabras clave
         banner: Banner
-        url: Url on banner
-        theme: Theme color
-        content: Home content
+        url: Url en el banner
+        theme: Color de tema
+        content: Contenido local
         css: CSS
       forum:
-        name: Title
-        parent: Parent
-        content: Description
-        acl_view: Forum visible
-        acl_read: Topics visible
-        acl_write: Topics creation
-        acl_admin: Moderators
+        name: Título
+        parent: Padre
+        content: Descripción
+        acl_view: Foro visible
+        acl_read: Temas visibles
+        acl_write: Creación de temas
+        acl_admin: Moderadores
       topic:
-        name: Title
-        acl_view: Topic visible
-        acl_read: Messages visible
-        acl_write: Messages creation
-        acl_admin: Moderators
+        name: Título
+        acl_view: Tema visible
+        acl_read: Mensajes visibles
+        acl_write: Creación de mensajes
+        acl_admin: Moderadores
       message:
-        content: Message
-        attachment: Attachment (1 MB)
+        content: Mensaje
+        attachment: Archivo adjunto (1 MB)
       group:
-        name: Name
-        status: Status
-        user_ids: Users
-        users_count: Users
+        name: Nombre
+        status: Estado
+        user_ids: Usuarios
+        users_count: Usuarios
       user:
-        email: Email
-        password: Password
-        current_password: Current password
-        password_confirmation: Password confirmation
-        name: Name
-        birthdate: Birthdate
-        gender: Gender
-        location: Location
-        website: Website
-        created_at: Joined
-        updated_at: Activity
-        topics_count: Topics
-        messages_count: Messages
-        notify: E-mails
+        email: Correo electrónico
+        password: Contraseña
+        current_password: Contraseña actual
+        password_confirmation: Confirmación de contraseña
+        name: Nombre
+        birthdate: Fecha de nacimiento
+        gender: Genero
+        location: Ubicación
+        website: Sitio web
+        created_at: Se unió
+        updated_at: Actividad
+        topics_count: Temas
+        messages_count: Mensajes
+        notify: Correos electrónicos
